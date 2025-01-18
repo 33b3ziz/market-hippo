@@ -15,6 +15,8 @@ interface NavItemProps {
   isAnyOpen: boolean;
 }
 
+//
+
 const NavItem = ({ category, isAnyOpen, isOpen, handleOpen }: NavItemProps) => {
   return (
     <div className="relative flex items-center">
